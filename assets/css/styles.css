@@ -219,6 +219,13 @@ img {
   color: var(--second-color);
 }
 
+.address__social-icon {
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+
 .home__social-icon:hover {
   color: var(--first-color);
 }
@@ -317,23 +324,23 @@ img {
 }
 
 .skills__react {
-  width: 75%;
+  width: 85%;
 }
 
 .skills__node {
-  width: 75%;
+  width: 85%;
 }
 
 .skills__js {
-  width: 80%;
+  width: 85%;
 }
 
 .skills__py {
-  width: 85%;
+  width: 80%;
 }
 
 .skills__ja {
-  width: 85%;
+  width: 80%;
 }
 
 .skills__img {
@@ -469,6 +476,10 @@ img {
     align-self: flex-end;
   }
   .home__social-icon {
+    margin-bottom: 0;
+    margin-right: var(--mb-4);
+  }
+  .address__social-icon {
     margin-bottom: 0;
     margin-right: var(--mb-4);
   }
